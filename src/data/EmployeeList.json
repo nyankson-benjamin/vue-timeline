@@ -1,0 +1,181 @@
+{
+  "data": [
+    {
+      "name": "Hello",
+      "id": 1
+    },
+    {
+      "name": "Hello",
+      "id": 2
+    },
+    {
+      "name": "Hello",
+      "id": 3
+    },
+    {
+      "name": "Hello",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "info": {
+        "name": "John",
+        "id": 1,
+        "employee_info": {
+          "client_ready": true
+        }
+      },
+      "name": "John",
+      "projects": [
+        {
+          "name": "Project A",
+          "id": 1,
+          "startDate": "2024-05-01",
+          "endDate": "2024-06-15",
+          "color": "#09ffad"
+        },
+        {
+          "name": "Project E",
+          "id": 5,
+          "startDate": "2024-05-07",
+          "endDate": "2024-05-15",
+          "color": "orange"
+        },
+        {
+          "name": "Project B",
+          "id": 2,
+          "startDate": "2024-03-01",
+          "endDate": "2024-04-15",
+          "color": "blue"
+        },
+        {
+          "name": "Project F",
+          "id": 6,
+          "startDate": "2024-05-02",
+          "endDate": "2024-05-15",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "info": {
+        "name": "Alice",
+        "id": 2,
+        "employee_info": {
+          "client_ready": false
+        }
+      },
+      "name": "Alice",
+      "projects": [
+        {
+          "name": "Project A",
+          "id": 1,
+          "startDate": "2024-05-01",
+          "endDate": "2024-05-15",
+          "color": "#09ffad"
+        },
+        {
+          "name": "Project C",
+          "id": 3,
+          "startDate": "2024-02-01",
+          "endDate": "2024-03-15",
+          "color": "green"
+        },
+        {
+          "name": "Project D",
+          "id": 4,
+          "startDate": "2025-02-05",
+          "endDate": "2026-03-15",
+          "color": "lime"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "info": {
+        "name": "Ben",
+        "id": 3,
+        "employee_info": {
+          "client_ready": true
+        }
+      },
+      "name": "Ben",
+      "projects": [
+        {
+          "name": "Project A",
+          "id": 1,
+          "startDate": "2024-05-01",
+          "endDate": "2024-06-07",
+          "color": "#09ffad"
+        },
+        {
+          "name": "Project C",
+          "id": 3,
+          "startDate": "2024-02-01",
+          "endDate": "2024-03-15",
+          "color": "green"
+        },
+        {
+          "name": "Project D",
+          "id": 4,
+          "startDate": "2025-02-05",
+          "endDate": "2026-03-15",
+          "color": "lime"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project A",
+      "id": 1,
+      "managedBy": "Benjamin",
+      "startDate": "2024-05-01",
+      "endDate": "2024-06-07",
+      "color": "#09ffad"
+    },
+    {
+      "name": "Project B",
+      "id": 2,
+      "managedBy": "Miles",
+      "startDate": "2024-03-01",
+      "endDate": "2024-04-15",
+      "color": "blue"
+    },
+    {
+      "name": "Project C",
+      "id": 3,
+      "managedBy": "Nyankson",
+      "startDate": "2024-02-01",
+      "endDate": "2024-03-15",
+      "color": "green"
+    },
+    {
+      "name": "Project D",
+      "id": 4,
+      "managedBy": "Kwesi",
+      "startDate": "2025-02-05",
+      "endDate": "2026-03-15",
+      "color": "lime"
+    },
+    {
+      "name": "Project E",
+      "id": 5,
+      "managedBy": "Amalitech",
+      "startDate": "2024-05-07",
+      "endDate": "2024-05-15",
+      "color": "orange"
+    },
+    {
+      "name": "Project F",
+      "id": 6,
+      "managedBy": "Client",
+      "startDate": "2024-05-02",
+      "endDate": "2024-05-15",
+      "color": "blue"
+    }
+  ]
+}
